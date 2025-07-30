@@ -19,3 +19,13 @@ for(let i=0; i<numbers.length; i++){
     const num=numbers[i];
     reversed_number.unshift(num);
 }
+
+// revers side
+const rev_rev_numbers = []
+for(let i = numbers.length -1 ; i>=0; i--){
+    const num= numbers[i];
+    console.log(num);
+    rev_rev_numbers.push(num)
+}
+
+console.log(rev_rev_numbers);
