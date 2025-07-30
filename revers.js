@@ -13,3 +13,9 @@ for (const num of numbers){
     rev_numbers.unshift(num)
 }
 console.log(rev_numbers);
+
+const reversed_number= [];
+for(let i=0; i<numbers.length; i++){
+    const num=numbers[i];
+    reversed_number.unshift(num);
+}
