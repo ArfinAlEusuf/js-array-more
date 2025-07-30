@@ -20,6 +20,7 @@ for(let i=0; i <friends.length; i++){
 }
 
 
+
 const numbers= [5, 23,55,36,55,68,59,49,65,98,84]
 
 for(let i=0; i < numbers.length; i++){

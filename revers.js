@@ -21,6 +21,7 @@ for(let i=0; i<numbers.length; i++){
 }
 
 // revers side
+// decrimental for loop
 const rev_rev_numbers = []
 for(let i = numbers.length -1 ; i>=0; i--){
     const num= numbers[i];
